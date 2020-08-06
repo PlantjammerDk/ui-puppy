@@ -22,6 +22,18 @@
 
 ---
 
+# v0.1.8 (Thu Aug 06 2020)
+
+#### ⚠️ Pushed to `master`
+
+- auto shipit command only works using npm ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.1.5 (Thu Aug 06 2020)
 
 #### ⚠️ Pushed to `master`
