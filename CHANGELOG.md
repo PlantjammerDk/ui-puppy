@@ -1,3 +1,15 @@
+# v0.1.11 (Thu Aug 06 2020)
+
+#### ⚠️ Pushed to `master`
+
+- Rename the other token ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.1.10 (Thu Aug 06 2020)
 
 #### ⚠️ Pushed to `master`
