@@ -29,6 +29,7 @@
     "@types/react": "^16.9.44",
     "@types/react-dom": "^16.9.8",
     "@types/react-test-renderer": "^16.9.3",
+    "auto": "^9.49.4",
     "autoprefixer": "^9.8.6",
     "babel-loader": "^8.1.0",
     "postcss-cli": "^7.1.1",
