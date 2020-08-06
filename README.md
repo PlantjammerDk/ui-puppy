@@ -13,4 +13,3 @@ https://www.learnstorybook.com/design-systems-for-developers/react/en/distribute
 - [x] Automatic deployment when merging pull requests
 - [ ] Chromatic tests
 - [ ] CI
-- [ ]
