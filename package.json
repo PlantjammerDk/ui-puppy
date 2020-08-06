@@ -11,7 +11,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build:tailwind": "postcss css/base.css -o css/tailwind.css"
+    "build:tailwind": "postcss css/base.css -o css/tailwind.css",
+    "release": "auto shipit"
   },
   "author": "Anders Ravn <aravn4@gmail.com>",
   "license": "MIT",
