@@ -1,9 +1,9 @@
 {
-  "name": "ui-puppy",
+  "name": "@plantjammer/ui-puppy",
   "version": "0.1.17",
   "description": "A ReactJS UI library inspired by Eva Design",
   "main": "build/index.js",
-  "private": false,
+  "private": true,
   "repository": "git://github.com/PlantjammerDk/ui-puppy.git",
   "module": "build/index.es.js",
   "jsnext:main": "build/index.es.js",
