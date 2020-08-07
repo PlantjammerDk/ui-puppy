@@ -15,6 +15,23 @@
 
 ---
 
+# v0.1.12 (Fri Aug 07 2020)
+
+#### ⚠️ Pushed to `master`
+
+- Try renaming the package ([@andersravn](https://github.com/andersravn))
+- Try "with" instead of "env" ([@andersravn](https://github.com/andersravn))
+- Try ([@andersravn](https://github.com/andersravn))
+- Update README.md ([@andersravn](https://github.com/andersravn))
+- Attempt at using GitHub Packages (might not work with Auto) ([@andersravn](https://github.com/andersravn))
+- Rename back to NPM_TOKEN and try macos-latest ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.1.11 (Thu Aug 06 2020)
 
 #### ⚠️ Pushed to `master`
