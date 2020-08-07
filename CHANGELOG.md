@@ -2,6 +2,24 @@
 
 #### ⚠️ Pushed to `master`
 
+- Back to non-scoped name (aravn4@gmail.com)
+- Try renaming the package (aravn4@gmail.com)
+- Try "with" instead of "env" (aravn4@gmail.com)
+- Try (aravn4@gmail.com)
+- Update README.md (aravn4@gmail.com)
+- Attempt at using GitHub Packages (might not work with Auto) (aravn4@gmail.com)
+- Rename back to NPM_TOKEN and try macos-latest (aravn4@gmail.com)
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
+# v0.1.12 (Fri Aug 07 2020)
+
+#### ⚠️ Pushed to `master`
+
 - Try renaming the package ([@andersravn](https://github.com/andersravn))
 - Try "with" instead of "env" ([@andersravn](https://github.com/andersravn))
 - Try ([@andersravn](https://github.com/andersravn))
