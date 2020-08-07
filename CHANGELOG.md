@@ -1,3 +1,16 @@
+# v0.1.23 (Fri Aug 07 2020)
+
+#### ⚠️ Pushed to `master`
+
+- Try using npx ([@andersravn](https://github.com/andersravn))
+- Another try ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.1.19 (Fri Aug 07 2020)
 
 #### ⚠️ Pushed to `master`
