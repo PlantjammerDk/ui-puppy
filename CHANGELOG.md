@@ -20,6 +20,24 @@
 
 #### ⚠️ Pushed to `master`
 
+- .com vs .org (aravn4@gmail.com)
+- Downgrade Auto (aravn4@gmail.com)
+- Tried with npm install (aravn4@gmail.com)
+- Removed npm plugin (aravn4@gmail.com)
+- More stuff (aravn4@gmail.com)
+- Added npm plugin for Auto (aravn4@gmail.com)
+- Fix script (aravn4@gmail.com)
+
+#### Authors: 1
+
+- Anders Ravn (aravn4@gmail.com)
+
+---
+
+# v0.1.24 (Fri Aug 07 2020)
+
+#### ⚠️ Pushed to `master`
+
 - Downgrade Auto (aravn4@gmail.com)
 - Tried with npm install (aravn4@gmail.com)
 - Removed npm plugin (aravn4@gmail.com)
