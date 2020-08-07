@@ -2,6 +2,20 @@
 
 #### ⚠️ Pushed to `master`
 
+- Fix script (aravn4@gmail.com)
+- Try using npx (aravn4@gmail.com)
+- Another try (aravn4@gmail.com)
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
+# v0.1.23 (Fri Aug 07 2020)
+
+#### ⚠️ Pushed to `master`
+
 - Try using npx ([@andersravn](https://github.com/andersravn))
 - Another try ([@andersravn](https://github.com/andersravn))
 
