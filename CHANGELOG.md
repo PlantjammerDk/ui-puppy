@@ -2,6 +2,22 @@
 
 #### ⚠️ Pushed to `master`
 
+- v0.1.21 (aravn4@gmail.com)
+- v0.1.20 (aravn4@gmail.com)
+- Here we go ([@andersravn](https://github.com/andersravn))
+- Lala ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 2
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+- andersravn (aravn4@gmail.com)
+
+---
+
+# v0.1.19 (Fri Aug 07 2020)
+
+#### ⚠️ Pushed to `master`
+
 - Lala (aravn4@gmail.com)
 
 #### Authors: 1
