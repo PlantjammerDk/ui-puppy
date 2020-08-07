@@ -1,5 +1,5 @@
 {
-  "name": "@plantjammer/ui-puppy",
+  "name": "ui-puppy",
   "version": "0.1.11",
   "description": "A ReactJS UI library inspired by Eva Design",
   "main": "build/index.js",
@@ -20,7 +20,7 @@
     "build"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
