@@ -10,6 +10,18 @@
 
 ---
 
+# v0.1.24 (Fri Aug 07 2020)
+
+#### ⚠️ Pushed to `master`
+
+- Fix script (aravn4@gmail.com)
+
+#### Authors: 1
+
+- Anders Ravn (aravn4@gmail.com)
+
+---
+
 # v0.1.23 (Fri Aug 07 2020)
 
 #### ⚠️ Pushed to `master`
