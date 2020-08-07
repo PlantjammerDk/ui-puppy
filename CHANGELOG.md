@@ -1,3 +1,16 @@
+# v0.1.43 (Fri Aug 07 2020)
+
+#### ⚠️ Pushed to `master`
+
+- Fixed syntax error ([@andersravn](https://github.com/andersravn))
+- Trying with CI ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.1.24 (Fri Aug 07 2020)
 
 #### ⚠️ Pushed to `master`
