@@ -21,8 +21,7 @@
     "build"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
+    "registry": "https://registry.npmjs.com/"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
