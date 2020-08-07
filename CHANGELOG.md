@@ -2,6 +2,22 @@
 
 #### ⚠️ Pushed to `master`
 
+- Fix (aravn4@gmail.com)
+- Another potential fix (aravn4@gmail.com)
+- Potential fix (aravn4@gmail.com)
+- Fixed syntax error (aravn4@gmail.com)
+- Trying with CI (aravn4@gmail.com)
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
+# v0.1.43 (Fri Aug 07 2020)
+
+#### ⚠️ Pushed to `master`
+
 - Another potential fix ([@andersravn](https://github.com/andersravn))
 - Potential fix ([@andersravn](https://github.com/andersravn))
 - Fixed syntax error ([@andersravn](https://github.com/andersravn))
