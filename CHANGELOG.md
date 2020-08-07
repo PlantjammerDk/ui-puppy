@@ -17,6 +17,21 @@
 
 #### ⚠️ Pushed to `master`
 
+- Another potential fix ([@andersravn](https://github.com/andersravn))
+- Potential fix ([@andersravn](https://github.com/andersravn))
+- Fixed syntax error ([@andersravn](https://github.com/andersravn))
+- Trying with CI ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
+# v0.1.43 (Fri Aug 07 2020)
+
+#### ⚠️ Pushed to `master`
+
 - Fixed syntax error ([@andersravn](https://github.com/andersravn))
 - Trying with CI ([@andersravn](https://github.com/andersravn))
 
