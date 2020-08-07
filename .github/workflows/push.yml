@@ -31,11 +31,11 @@ jobs:
             yarn-deps-${{ hashFiles('yarn.lock') }}
 
       - name: Create Release
-        with:
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           yarn config set registry https://registry.npmjs.org/
           yarn install --frozen-lockfile
           yarn build
-          npm run release
+          yarn release
