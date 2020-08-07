@@ -20,9 +20,6 @@
   "files": [
     "build"
   ],
-  "publishConfig": {
-    "registry": "https://registry.npmjs.com/"
-  },
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "@storybook/addon-actions": "^5.3.19",
