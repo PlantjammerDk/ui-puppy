@@ -3,7 +3,7 @@
   "version": "0.1.18",
   "description": "A ReactJS UI library inspired by Eva Design",
   "main": "build/index.js",
-  "private": true,
+  "private": false,
   "repository": "git://github.com/PlantjammerDk/ui-puppy.git",
   "module": "build/index.es.js",
   "jsnext:main": "build/index.es.js",
@@ -20,6 +20,9 @@
   "files": [
     "build"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "@storybook/addon-actions": "^5.3.19",
