@@ -21,6 +21,7 @@
     "build"
   ],
   "devDependencies": {
+    "@auto-it/npm": "^9.49.5",
     "@babel/core": "^7.11.1",
     "@storybook/addon-actions": "^5.3.19",
     "@storybook/addon-knobs": "^5.3.19",
