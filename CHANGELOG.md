@@ -2,6 +2,25 @@
 
 #### ⚠️ Pushed to `master`
 
+- Version bump ([@andersravn](https://github.com/andersravn))
+- Try npm publish ([@andersravn](https://github.com/andersravn))
+- v0.1.47 ([@andersravn](https://github.com/andersravn))
+- v0.1.42 ([@andersravn](https://github.com/andersravn))
+- Rename org ([@andersravn](https://github.com/andersravn))
+- Small fix ([@andersravn](https://github.com/andersravn))
+- Try using GitHub packages ([@andersravn](https://github.com/andersravn))
+- Attempt ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
+# v0.1.46 (Sat Aug 08 2020)
+
+#### ⚠️ Pushed to `master`
+
 - Rename org ([@andersravn](https://github.com/andersravn))
 - Small fix ([@andersravn](https://github.com/andersravn))
 - Try using GitHub packages ([@andersravn](https://github.com/andersravn))
