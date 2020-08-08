@@ -1,6 +1,6 @@
 import React from "react";
 import ReactSelect, { Props as SelectProps, Styles } from "react-select";
-const config = require("../tailwind.config");
+import colors from "./colors";
 
 type Props = SelectProps & {
   removeBorder?: boolean;
@@ -25,24 +25,23 @@ export const Select = (props: Props) => {
     label,
     caption,
   } = props;
-  const colors = config.theme.extend.colors;
 
   const getBorderColor = (): string => {
     switch (status) {
       case "basic":
-        return colors["select-border"];
+        return "border-basic-500";
       case "primary":
-        return colors["primary-500"];
+        return "border-primary-500";
       case "success":
-        return colors["success-500"];
+        return "border-success-500";
       case "info":
-        return colors["info-500"];
+        return "border-info-500";
       case "warning":
-        return colors["warning-500"];
+        return "border-warning-500";
       case "danger":
-        return colors["danger-500"];
+        return "border-danger-500";
       default:
-        return colors["select-border"];
+        return "border-select-border";
     }
   };
 
@@ -59,11 +58,29 @@ export const Select = (props: Props) => {
     }
   };
 
+  const getCaptionColor = (): string => {
+    switch (status) {
+      case "basic":
+        return "text-basic-600";
+      case "primary":
+        return "text-primary-600";
+      case "success":
+        return "text-success-600";
+      case "info":
+        return "text-info-600";
+      case "warning":
+        return "text-warning-600";
+      case "danger":
+        return "text-danger-600";
+      default:
+        return "text-select-border";
+    }
+  };
+
   const customStyles: Styles = {
     control: (provided) => ({
       borderWidth: removeBorder ? "0" : "1px",
       borderStyle: removeBorder ? "none" : "solid",
-      borderColor: getBorderColor(),
       display: "flex",
       borderRadius: "4px",
       backgroundColor: removeBorder
@@ -120,8 +137,12 @@ export const Select = (props: Props) => {
   return (
     <>
       <div className="text-sm font-semibold text-gray-600">{label}</div>
-      <ReactSelect styles={customStyles} {...props} />
-      <div className="text-sm text-gray-600">{caption}</div>
+      <ReactSelect
+        className={`border rounded ${getBorderColor()}`}
+        styles={customStyles}
+        {...props}
+      />
+      <div className={`text-sm ${getCaptionColor()}`}>{caption}</div>
     </>
   );
 };
