@@ -1,3 +1,20 @@
+# v0.1.50 (Sat Aug 08 2020)
+
+#### ⚠️ Pushed to `master`
+
+- Let's go ([@andersravn](https://github.com/andersravn))
+- Just another try ([@andersravn](https://github.com/andersravn))
+- WElp ([@andersravn](https://github.com/andersravn))
+- Try3 ([@andersravn](https://github.com/andersravn))
+- Try2 ([@andersravn](https://github.com/andersravn))
+- Try ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.1.46 (Sat Aug 08 2020)
 
 #### ⚠️ Pushed to `master`
