@@ -1,6 +1,6 @@
 {
   "name": "ui-puppy",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A ReactJS UI library inspired by Eva Design",
   "main": "build/index.js",
   "repository": "git://github.com/PlantjammerDk/ui-puppy.git",
