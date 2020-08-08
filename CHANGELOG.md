@@ -2,6 +2,26 @@
 
 #### ⚠️ Pushed to `master`
 
+- Back to npm (aravn4@gmail.com)
+- Version bump (aravn4@gmail.com)
+- Try npm publish (aravn4@gmail.com)
+- v0.1.47 (aravn4@gmail.com)
+- v0.1.42 (aravn4@gmail.com)
+- Rename org (aravn4@gmail.com)
+- Small fix (aravn4@gmail.com)
+- Try using GitHub packages (aravn4@gmail.com)
+- Attempt (aravn4@gmail.com)
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
+# v0.1.46 (Sat Aug 08 2020)
+
+#### ⚠️ Pushed to `master`
+
 - Version bump ([@andersravn](https://github.com/andersravn))
 - Try npm publish ([@andersravn](https://github.com/andersravn))
 - v0.1.47 ([@andersravn](https://github.com/andersravn))
