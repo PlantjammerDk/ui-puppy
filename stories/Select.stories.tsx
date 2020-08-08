@@ -1,5 +1,5 @@
 import React from "react";
-import { Select } from "../src/Select";
+import { Select, Input } from "../src";
 
 export default {
   title: "Select",
@@ -62,5 +62,18 @@ export const Status = () => (
       status="danger"
       caption="This is a status message..."
     />
+  </>
+);
+
+export const Compare = () => (
+  <>
+    <Select
+      options={optionsData}
+      placeholder="Hello"
+      removeBorder
+      size="medium"
+    />
+    <Select options={optionsData} placeholder="Hello" size="medium" />
+    <Input placeholder="Hello" />
   </>
 );
