@@ -2,6 +2,7 @@
 name: Release
 
 # the event that will trigger the action
+# Comment for change
 on:
   push:
     branches: [master]
