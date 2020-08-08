@@ -21,9 +21,9 @@ jobs:
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
+          always-auth: true
           node-version: 12.x
-          registry-url: "https://npm.pkg.github.com"
-          scope: "@plantjammerdk"
+          registry-url: https://registry.npmjs.org
       - name: Cache node modules
         uses: actions/cache@v1
         with:
@@ -34,9 +34,9 @@ jobs:
 
       - name: Create Release
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
         run: |
           yarn install --frozen-lockfile
           yarn build
-          npm publish
+          yarn release
