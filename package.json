@@ -1,5 +1,5 @@
 {
-  "name": "@plantjammer/ui-puppy",
+  "name": "@plantjammerdk/ui-puppy",
   "version": "0.1.40",
   "description": "A ReactJS UI library inspired by Eva Design",
   "main": "build/index.js",
