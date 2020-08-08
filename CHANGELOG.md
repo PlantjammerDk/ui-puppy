@@ -1,3 +1,15 @@
+# v0.3.0 (Sat Aug 08 2020)
+
+#### 🚀 Enhancement
+
+- Removed dependency on importing tailwind config in Select [#2](https://github.com/PlantjammerDk/ui-puppy/pull/2) ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.2.0 (Sat Aug 08 2020)
 
 #### 🚀 Enhancement
