@@ -1,3 +1,18 @@
+# v0.1.46 (Sat Aug 08 2020)
+
+#### ⚠️ Pushed to `master`
+
+- Rename org ([@andersravn](https://github.com/andersravn))
+- Small fix ([@andersravn](https://github.com/andersravn))
+- Try using GitHub packages ([@andersravn](https://github.com/andersravn))
+- Attempt ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.1.43 (Fri Aug 07 2020)
 
 #### ⚠️ Pushed to `master`
