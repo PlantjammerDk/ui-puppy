@@ -1,3 +1,15 @@
+# v0.2.0 (Sat Aug 08 2020)
+
+#### 🚀 Enhancement
+
+- Added Select component using react-select [#1](https://github.com/PlantjammerDk/ui-puppy/pull/1) ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.1.50 (Sat Aug 08 2020)
 
 #### ⚠️ Pushed to `master`
