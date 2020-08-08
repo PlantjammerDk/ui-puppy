@@ -12,9 +12,9 @@ type Props = DetailedHTMLProps<
 };
 
 const sizes = {
-  small: "px-2 py-1",
+  small: "px-4 py-1",
   medium: "px-4 py-2",
-  large: "px-5 py-3",
+  large: "px-4 py-3",
 };
 
 export const Input = (props: Props) => {
