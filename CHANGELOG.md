@@ -1,3 +1,15 @@
+# v0.3.1 (Sat Aug 08 2020)
+
+#### 🐛 Bug Fix
+
+- Select has been aligned with Input [#3](https://github.com/PlantjammerDk/ui-puppy/pull/3) ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.3.0 (Sat Aug 08 2020)
 
 #### 🚀 Enhancement
