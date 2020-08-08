@@ -29,7 +29,7 @@ export const Select = (props: Props) => {
   const getBorderColor = (): string => {
     switch (status) {
       case "basic":
-        return "border-basic-500";
+        return "border-gray-300";
       case "primary":
         return "border-primary-500";
       case "success":
@@ -41,7 +41,7 @@ export const Select = (props: Props) => {
       case "danger":
         return "border-danger-500";
       default:
-        return "border-select-border";
+        return "border-gray-300";
     }
   };
 
@@ -79,8 +79,6 @@ export const Select = (props: Props) => {
 
   const customStyles: Styles = {
     control: (provided) => ({
-      borderWidth: removeBorder ? "0" : "1px",
-      borderStyle: removeBorder ? "none" : "solid",
       display: "flex",
       borderRadius: "4px",
       backgroundColor: removeBorder
@@ -95,11 +93,9 @@ export const Select = (props: Props) => {
       ...provided,
       padding: `${getSize()} 1rem`,
     }),
-    placeholder: (provided, state) => ({
+    placeholder: (provided) => ({
       ...provided,
-      color: state.isDisabled
-        ? colors["select-text-disabled"]
-        : colors["select-text-disabled"],
+      color: "#a0aec0",
     }),
     menu: (provided) => ({
       ...provided,
@@ -138,7 +134,9 @@ export const Select = (props: Props) => {
     <>
       <div className="text-sm font-semibold text-gray-600">{label}</div>
       <ReactSelect
-        className={`border rounded ${getBorderColor()}`}
+        className={`rounded ${getBorderColor()} ${
+          removeBorder ? "border-none" : "border"
+        }`}
         styles={customStyles}
         {...props}
       />
