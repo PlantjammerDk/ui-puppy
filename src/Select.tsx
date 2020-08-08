@@ -1,6 +1,15 @@
 import React from "react";
 import ReactSelect, { Props as SelectProps, Styles } from "react-select";
-import colors from "./colors";
+
+const colors = {
+  "select-background-hover": "#EDF1F7",
+  "select-text": "#8F9BB3",
+  "select-text-disabled": "rgba(143, 155, 179, 0.48)",
+  "select-option-text": "#222B45",
+  "select-option-selected": "#E6EAEF",
+  "select-option-hover": "#E9EDFC",
+  "select-option-background": "#FFFFFF",
+};
 
 type Props = SelectProps & {
   removeBorder?: boolean;
@@ -81,9 +90,6 @@ export const Select = (props: Props) => {
     control: (provided) => ({
       display: "flex",
       borderRadius: "4px",
-      backgroundColor: removeBorder
-        ? "transparent"
-        : colors["select-background"],
       ":hover": {
         ...provided[":hover"],
         backgroundColor: colors["select-background-hover"],
@@ -105,12 +111,12 @@ export const Select = (props: Props) => {
       ...provided,
       color: colors["select-option-text"],
       backgroundColor: state.isDisabled
-        ? null
+        ? colors["select-option-background"]
         : state.isSelected
-        ? colors["select-option-text-selected"]
+        ? colors["select-option-selected"]
         : state.isFocused
         ? colors["select-option-hover"]
-        : null,
+        : colors["select-option-background"],
       ":active": {
         ...provided[":active"],
         backgroundColor:
@@ -135,8 +141,8 @@ export const Select = (props: Props) => {
       <div className="text-sm font-semibold text-gray-600">{label}</div>
       <ReactSelect
         className={`rounded ${getBorderColor()} ${
-          removeBorder ? "border-none" : "border"
-        }`}
+          removeBorder ? "border-none bg-transparent" : "border bg-gray-100"
+        } hover:bg-gray-200`}
         styles={customStyles}
         {...props}
       />
