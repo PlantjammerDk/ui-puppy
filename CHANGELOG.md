@@ -1,3 +1,15 @@
+# v0.3.2 (Thu Aug 13 2020)
+
+#### ⚠️ Pushed to `master`
+
+- Updated README ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.3.1 (Sat Aug 08 2020)
 
 #### 🐛 Bug Fix
