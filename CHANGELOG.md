@@ -1,3 +1,15 @@
+# v0.3.3 (Mon Aug 17 2020)
+
+#### 🐛 Bug Fix
+
+- Added Textarea [#4](https://github.com/PlantjammerDk/ui-puppy/pull/4) ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.3.2 (Thu Aug 13 2020)
 
 #### ⚠️ Pushed to `master`
