@@ -25,16 +25,16 @@ jobs:
             yarn-deps-${{ hashFiles('yarn.lock') }}
 
       - name: Install dependencies
-          run: |
-            yarn install --frozen-lockfile
-            yarn build
-      
+        run: |
+          yarn install --frozen-lockfile
+          yarn build
+
       - name: Run visual tests with Chromatic
       - uses: chromaui/action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-      
+
       - name: Create Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
