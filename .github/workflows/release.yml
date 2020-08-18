@@ -33,4 +33,4 @@ jobs:
           yarn install --frozen-lockfile
           yarn build
           npx auto shipit
-          yarn deploy-storybook -- --ci --host-token-env-variable=GITHUB_TOKEN
+          npm run deploy-storybook -- --ci --host-token-env-variable=GITHUB_TOKEN
