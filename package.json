@@ -12,7 +12,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build:tailwind": "postcss css/base.css -o css/tailwind.css",
-    "release": "auto shipit"
+    "release": "auto shipit",
+    "chromatic": "npx chromatic"
   },
   "author": "Anders Ravn <aravn4@gmail.com>",
   "license": "MIT",
@@ -35,6 +36,7 @@
     "auto": "^9.48.3",
     "autoprefixer": "^9.8.6",
     "babel-loader": "^8.1.0",
+    "chromatic": "^5.1.0",
     "postcss-cli": "^7.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
