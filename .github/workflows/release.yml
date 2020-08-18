@@ -8,9 +8,15 @@ jobs:
     if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
     steps:
       - uses: actions/checkout@v2
-
+        with:
+          fetch-depth: 0 # Required to retrieve git history for Chromatic
       - name: Prepare repository
         run: git fetch --unshallow --tags
+
+      - uses: chromaui/action@v1
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
 
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
