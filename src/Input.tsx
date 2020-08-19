@@ -1,7 +1,7 @@
 import React from "react";
 import { DetailedHTMLProps, InputHTMLAttributes } from "react";
 
-type Props = DetailedHTMLProps<
+export type Props = DetailedHTMLProps<
   InputHTMLAttributes<HTMLInputElement>,
   HTMLInputElement
 > & {

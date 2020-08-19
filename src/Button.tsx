@@ -1,7 +1,7 @@
 import React from "react";
 import { DetailedHTMLProps, ButtonHTMLAttributes } from "react";
 
-type Props = DetailedHTMLProps<
+export type Props = DetailedHTMLProps<
   ButtonHTMLAttributes<HTMLButtonElement>,
   HTMLButtonElement
 > & {

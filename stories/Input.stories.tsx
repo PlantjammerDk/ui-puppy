@@ -1,43 +1,45 @@
 import React from "react";
-import { action } from "@storybook/addon-actions";
-import { Input } from "../src/Input";
+import { Input, Props } from "../src/Input";
 
 export default {
   title: "Input",
   component: Input,
 };
 
-export const Sizes = () => (
+export const Sizes = (args: Props) => (
   <>
-    <Input placeholder="Small" fieldSize="small" />
-    <Input placeholder="Medium" fieldSize="medium" />
-    <Input placeholder="Large" fieldSize="large" />
+    <Input {...args} placeholder="Small" fieldSize="small" />
+    <Input {...args} placeholder="Medium" fieldSize="medium" />
+    <Input {...args} placeholder="Large" fieldSize="large" />
   </>
 );
 
-export const Label = () => (
+export const Label = (args: Props) => (
   <>
-    <Input placeholder="Small" fieldSize="small" label="Password" />
-    <Input placeholder="Medium" fieldSize="medium" label="Password" />
-    <Input placeholder="Large" fieldSize="large" label="Password" />
+    <Input {...args} placeholder="Small" fieldSize="small" label="Password" />
+    <Input {...args} placeholder="Medium" fieldSize="medium" label="Password" />
+    <Input {...args} placeholder="Large" fieldSize="large" label="Password" />
   </>
 );
 
-export const Caption = () => (
+export const Caption = (args: Props) => (
   <>
     <Input
+      {...args}
       placeholder="Small"
       fieldSize="small"
       label="Password"
       caption="Should contain at least 8 symbols"
     />
     <Input
+      {...args}
       placeholder="Medium"
       fieldSize="medium"
       label="Password"
       caption="Should contain at least 8 symbols"
     />
     <Input
+      {...args}
       placeholder="Large"
       fieldSize="large"
       label="Password"
@@ -46,34 +48,40 @@ export const Caption = () => (
   </>
 );
 
-export const Status = () => (
+export const Status = (args: Props) => (
   <>
     <Input
+      {...args}
       placeholder="Primary"
       status="primary"
       caption="Should contain at least 8 symbols"
     />
     <Input
+      {...args}
       placeholder="Success"
       status="success"
       caption="Should contain at least 8 symbols"
     />
     <Input
+      {...args}
       placeholder="Info"
       status="info"
       caption="Should contain at least 8 symbols"
     />
     <Input
+      {...args}
       placeholder="Warning"
       status="warning"
       caption="Should contain at least 8 symbols"
     />
     <Input
+      {...args}
       placeholder="Danger"
       status="danger"
       caption="Should contain at least 8 symbols"
     />
     <Input
+      {...args}
       placeholder="Basic"
       status="basic"
       caption="Should contain at least 8 symbols"
