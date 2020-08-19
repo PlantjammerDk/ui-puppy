@@ -1,5 +1,5 @@
 import React from "react";
-import { Select, Input } from "../src";
+import { Select, Input, SelectComponents } from "../src";
 
 export default {
   title: "Select",
@@ -65,15 +65,22 @@ export const Status = () => (
   </>
 );
 
-export const Compare = () => (
+const Option = (props) => {
+  return (
+    <div className="border border-red-500">
+      <SelectComponents.Option {...props} />
+    </div>
+  );
+};
+
+export const CustomOption = () => (
   <>
     <Select
       options={optionsData}
       placeholder="Hello"
       removeBorder
       size="medium"
+      components={{ Option }}
     />
-    <Select options={optionsData} placeholder="Hello" size="medium" />
-    <Input placeholder="Hello" />
   </>
 );
