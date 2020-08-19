@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Props } from "../src/Button";
+import { Button, Props as ButtonProps } from "../src/Button";
 
 import { Meta } from "@storybook/react/types-6-0";
 
@@ -8,7 +8,7 @@ export default {
   component: Button,
 } as Meta;
 
-export const Sizes = (args: Props) => (
+export const Sizes = (args: ButtonProps) => (
   <>
     <Button size="tiny" {...args}>
       TINY
@@ -28,7 +28,7 @@ export const Sizes = (args: Props) => (
   </>
 );
 
-export const Status = (args: Props) => (
+export const Status = (args: ButtonProps) => (
   <>
     <Button {...args} status="primary">
       PRIMARY
@@ -51,7 +51,7 @@ export const Status = (args: Props) => (
   </>
 );
 
-export const Outline = (args: Props) => (
+export const Outline = (args: ButtonProps) => (
   <>
     <Button {...args} status="primary" appearance="outline">
       PRIMARY
@@ -74,7 +74,7 @@ export const Outline = (args: Props) => (
   </>
 );
 
-export const Ghost = (args: Props) => (
+export const Ghost = (args: ButtonProps) => (
   <>
     <Button {...args} status="primary" appearance="ghost">
       PRIMARY
@@ -97,7 +97,7 @@ export const Ghost = (args: Props) => (
   </>
 );
 
-export const Disabled = (args: Props) => (
+export const Disabled = (args: ButtonProps) => (
   <>
     <h1>Filled</h1>
     <Button {...args} status="primary" disabled>
@@ -161,9 +161,11 @@ export const Disabled = (args: Props) => (
   </>
 );
 
-export const Text = (args: Props) => <Button {...args}>Hello Button</Button>;
+export const Text = (args: ButtonProps) => (
+  <Button {...args}>Hello Button</Button>
+);
 
-export const Emoji = (args: Props) => (
+export const Emoji = (args: ButtonProps) => (
   <Button {...args}>
     <span role="img" aria-label="so cool">
       😀 😎 👍 💯

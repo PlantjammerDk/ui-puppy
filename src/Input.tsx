@@ -1,7 +1,7 @@
 import React from "react";
 import { DetailedHTMLProps, InputHTMLAttributes } from "react";
 
-export type Props = DetailedHTMLProps<
+export type LocalInputProps = DetailedHTMLProps<
   InputHTMLAttributes<HTMLInputElement>,
   HTMLInputElement
 > & {
@@ -17,7 +17,7 @@ const sizes = {
   large: "px-4 py-3",
 };
 
-export const Input = (props: Props) => {
+export const Input = (props: LocalInputProps) => {
   const { fieldSize = "medium", label, caption, status = "basic" } = props;
 
   let borderColor = "";

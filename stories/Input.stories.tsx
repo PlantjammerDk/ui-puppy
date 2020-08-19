@@ -1,12 +1,12 @@
 import React from "react";
-import { Input, Props } from "../src/Input";
+import { Input, LocalInputProps } from "../src/Input";
 
 export default {
   title: "Input",
   component: Input,
 };
 
-export const Sizes = (args: Props) => (
+export const Sizes = (args: LocalInputProps) => (
   <>
     <Input {...args} placeholder="Small" fieldSize="small" />
     <Input {...args} placeholder="Medium" fieldSize="medium" />
@@ -14,7 +14,7 @@ export const Sizes = (args: Props) => (
   </>
 );
 
-export const Label = (args: Props) => (
+export const Label = (args: LocalInputProps) => (
   <>
     <Input {...args} placeholder="Small" fieldSize="small" label="Password" />
     <Input {...args} placeholder="Medium" fieldSize="medium" label="Password" />
@@ -22,7 +22,7 @@ export const Label = (args: Props) => (
   </>
 );
 
-export const Caption = (args: Props) => (
+export const Caption = (args: LocalInputProps) => (
   <>
     <Input
       {...args}
@@ -48,7 +48,7 @@ export const Caption = (args: Props) => (
   </>
 );
 
-export const Status = (args: Props) => (
+export const Status = (args: LocalInputProps) => (
   <>
     <Input
       {...args}
