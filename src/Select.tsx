@@ -1,11 +1,13 @@
 import React from "react";
 import ReactSelect, {
   Props as SelectProps,
+  ValueType,
   Styles,
   components,
 } from "react-select";
 
-export * from "react-select";
+export const SelectComponents = components;
+export type SelectValueType<V> = ValueType<V>;
 
 const colors = {
   "select-background-hover": "#EDF1F7",
@@ -31,8 +33,6 @@ type Props = SelectProps & {
   label?: string;
   caption?: string;
 };
-
-export const SelectComponents = components;
 
 export const Select = (props: Props) => {
   const {
