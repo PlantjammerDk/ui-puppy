@@ -1,3 +1,15 @@
+# v0.3.5 (Wed Aug 19 2020)
+
+#### 🐛 Bug Fix
+
+- Add react-select as peer dependency [#7](https://github.com/PlantjammerDk/ui-puppy/pull/7) ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.3.4 (Wed Aug 19 2020)
 
 #### 🐛 Bug Fix
