@@ -1,3 +1,23 @@
+# v0.3.4 (Wed Aug 19 2020)
+
+#### 🐛 Bug Fix
+
+- Chromatic [#5](https://github.com/PlantjammerDk/ui-puppy/pull/5) ([@andersravn](https://github.com/andersravn))
+
+#### ⚠️ Pushed to `master`
+
+- Fix error deploying to GitHub Pages ([@andersravn](https://github.com/andersravn))
+
+#### 🏠 Internal
+
+- Storybook upgrade [#6](https://github.com/PlantjammerDk/ui-puppy/pull/6) ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.3.3 (Mon Aug 17 2020)
 
 #### 🐛 Bug Fix
