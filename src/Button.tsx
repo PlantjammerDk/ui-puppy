@@ -1,7 +1,7 @@
 import React from "react";
 import { DetailedHTMLProps, ButtonHTMLAttributes } from "react";
 
-type Props = DetailedHTMLProps<
+export type ButtonProps = DetailedHTMLProps<
   ButtonHTMLAttributes<HTMLButtonElement>,
   HTMLButtonElement
 > & {
@@ -84,7 +84,7 @@ const sizes = {
   giant: { padding: "px-6 py-5", fontSize: "text-lg font-bold tracking-wide" },
 };
 
-export const Button = (props: Props) => {
+export const Button = (props: ButtonProps) => {
   const {
     status = "primary",
     appearance = "filled",
