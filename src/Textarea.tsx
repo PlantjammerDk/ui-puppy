@@ -1,6 +1,6 @@
 import React from "react";
 
-type Props = React.DetailedHTMLProps<
+export type TextareaProps = React.DetailedHTMLProps<
   React.TextareaHTMLAttributes<HTMLTextAreaElement>,
   HTMLTextAreaElement
 > & {
@@ -10,7 +10,7 @@ type Props = React.DetailedHTMLProps<
   children?: string;
 };
 
-const Textarea = (props: Props) => {
+export const Textarea = (props: TextareaProps) => {
   const { caption, status = "basic", label, rows = 3 } = props;
   let borderColor = "";
   let captionColor = "";
@@ -59,5 +59,3 @@ const Textarea = (props: Props) => {
     </div>
   );
 };
-
-export default Textarea;
