@@ -25,6 +25,10 @@ The project uses TailwindCSS. In order to get the most out of this library, plea
 2. Create a `MyComponent.stories.tsx` file in the `stories` folder.
 3. Develop and test it using `yarn storybook`.
 
+### Playing around
+If you want just want to locally test your work, you can `yarn add` from a local repo, e.g.:
+`yarn add /Users/andersravn/plantjammer/ui-puppy`.
+
 ### Submitting/deploying
 
 1. When you are ready submit a pull request.
@@ -35,7 +39,7 @@ If you want to test if it will build the package, run `yarn build`.
 ## TODO
 
 - [x] Automatic deployment when merging pull requests
-- [ ] Chromatic tests
+- [X] Chromatic tests
 - [x] CI
 
 ## Library setup
