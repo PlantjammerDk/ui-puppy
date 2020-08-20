@@ -52,6 +52,7 @@ export const Textarea = (props: TextareaProps) => {
         className={`flex bg-gray-100 border ${borderColor} rounded hover:bg-gray-200 p-1`}
         style={{ resize: "none" }}
         rows={rows}
+        {...props}
       >
         {props.children}
       </textarea>
