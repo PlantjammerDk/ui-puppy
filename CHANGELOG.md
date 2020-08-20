@@ -1,3 +1,15 @@
+# v0.3.6 (Thu Aug 20 2020)
+
+#### 🐛 Bug Fix
+
+- Textarea not exported correctly [#8](https://github.com/PlantjammerDk/ui-puppy/pull/8) ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.3.5 (Wed Aug 19 2020)
 
 #### 🐛 Bug Fix
