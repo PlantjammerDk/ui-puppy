@@ -130,6 +130,7 @@ export const Button = (props: ButtonProps) => {
   }
   return (
     <button
+      type={props.type ? props.type : "button"}
       {...props}
       className={`flex items-center ${padding} ${textColor} rounded ${background}`}
     >
