@@ -1,3 +1,15 @@
+# v0.3.8 (Wed Sep 02 2020)
+
+#### 🐛 Bug Fix
+
+- Button should have type="button" by default [#10](https://github.com/PlantjammerDk/ui-puppy/pull/10) ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.3.7 (Thu Aug 20 2020)
 
 #### 🐛 Bug Fix
