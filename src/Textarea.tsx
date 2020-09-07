@@ -41,7 +41,7 @@ export const Textarea = (props: TextareaProps) => {
       captionColor = "text-gray-600";
   }
   return (
-    <div className="flex flex-col">
+    <div className={`flex flex-col ${props.className}`}>
       {label && (
         <label htmlFor={label} className="text-sm font-semibold text-gray-600">
           {label}
@@ -49,10 +49,10 @@ export const Textarea = (props: TextareaProps) => {
       )}
       <textarea
         id={label ? label : ""}
-        className={`flex bg-gray-100 border ${borderColor} rounded hover:bg-gray-200 p-1`}
         style={{ resize: "none" }}
         rows={rows}
         {...props}
+        className={`flex bg-gray-100 border ${borderColor} rounded hover:bg-gray-200 p-1`}
       >
         {props.children}
       </textarea>
