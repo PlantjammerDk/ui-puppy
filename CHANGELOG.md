@@ -1,3 +1,15 @@
+# v0.4.0 (Tue Sep 08 2020)
+
+#### 🚀 Enhancement
+
+- Avatar [#11](https://github.com/PlantjammerDk/ui-puppy/pull/11) ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.3.8 (Wed Sep 02 2020)
 
 #### 🐛 Bug Fix
