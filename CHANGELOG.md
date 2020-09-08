@@ -1,3 +1,15 @@
+# v0.4.1 (Tue Sep 08 2020)
+
+#### ⚠️ Pushed to `master`
+
+- Forgot to re-export Avatar component ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.4.0 (Tue Sep 08 2020)
 
 #### 🚀 Enhancement
