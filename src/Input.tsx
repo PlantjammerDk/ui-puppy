@@ -50,7 +50,7 @@ export const Input = (props: LocalInputProps) => {
   }
 
   return (
-    <div className="flex flex-col">
+    <div className={`flex flex-col ${props.className}`}>
       {label && (
         <label htmlFor={label} className="text-sm font-semibold text-gray-600">
           {label}
@@ -58,8 +58,8 @@ export const Input = (props: LocalInputProps) => {
       )}
       <input
         id={label ? label : ""}
-        className={`${sizes[fieldSize]} flex bg-gray-100 border ${borderColor} rounded hover:bg-gray-200`}
         {...props}
+        className={`${sizes[fieldSize]} flex bg-gray-100 border ${borderColor} rounded hover:bg-gray-200`}
       />
       {caption && <span className={`text-sm ${captionColor}`}>{caption}</span>}
     </div>

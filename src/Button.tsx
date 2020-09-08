@@ -132,7 +132,7 @@ export const Button = (props: ButtonProps) => {
     <button
       type={props.type ? props.type : "button"}
       {...props}
-      className={`flex items-center ${padding} ${textColor} rounded ${background}`}
+      className={`flex items-center ${padding} ${textColor} rounded ${background} ${props.className}`}
     >
       {accessoryLeft}
       <span className={`mx-3 ${fontSize}`}>{props.children}</span>

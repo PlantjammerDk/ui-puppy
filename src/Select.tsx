@@ -146,13 +146,15 @@ export const Select = (props: Props) => {
 
   return (
     <>
-      <div className="text-sm font-semibold text-gray-600">{label}</div>
+      <div className={`text-sm font-semibold text-gray-600 ${props.className}`}>
+        {label}
+      </div>
       <ReactSelect
+        {...props}
         className={`rounded ${getBorderColor()} ${
           removeBorder ? "border-none bg-transparent" : "border bg-gray-100"
         } hover:bg-gray-200`}
         styles={customStyles}
-        {...props}
       />
       <div className={`text-sm ${getCaptionColor()}`}>{caption}</div>
     </>
