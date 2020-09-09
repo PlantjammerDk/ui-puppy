@@ -1,11 +1,11 @@
 import React from "react";
 
 enum ESizes {
-  tiny = 8,
-  small = 10,
-  medium = 12,
-  large = 16,
-  giant = 20,
+  tiny = "w-8 h-8",
+  small = "w-10 h-10",
+  medium = "w-12 h-12",
+  large = "w-16 h-16",
+  giant = "w-20 h-20",
 }
 
 enum ENameTextSizes {
@@ -65,12 +65,12 @@ export const Avatar = (props: AvatarProps) => {
       {picture ? (
         <div
           style={{ backgroundImage: `url(${picture})` }}
-          className={`w-${chosenSize} h-${chosenSize} ${chosenShape} bg-cover bg-no-repeat`}
+          className={`${chosenSize} ${chosenSize} ${chosenShape} bg-cover bg-no-repeat`}
         />
       ) : (
         <div
           style={{ backgroundColor: color }}
-          className={`flex justify-center items-center text-white w-${chosenSize} h-${chosenSize} ${chosenShape} ${nameTextSize}`}
+          className={`flex justify-center items-center text-white ${chosenSize} ${chosenSize} ${chosenShape} ${nameTextSize}`}
         >
           {showInitials &&
             name
