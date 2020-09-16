@@ -6,8 +6,6 @@ export type LocalCheckboxProps = DetailedHTMLProps<
   HTMLInputElement
 > & {
   label?: string;
-  caption?: string;
-  status?: "basic" | "primary" | "success" | "info" | "warning" | "danger";
 };
 
 export const Checkbox = (props: LocalCheckboxProps) => {
