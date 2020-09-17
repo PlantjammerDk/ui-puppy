@@ -8,7 +8,8 @@
   "jsnext:main": "build/index.es.js",
   "scripts": {
     "build": "rollup -c",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --collectCoverage=true",
+    "test:coverage": "jest --coverage",
     "build:tailwind": "postcss css/base.css -o css/tailwind.css",
     "release": "auto shipit",
     "chromatic": "npx chromatic",
@@ -28,6 +29,11 @@
     "@storybook/addon-links": "^6.0.13",
     "@storybook/react": "^6.0.13",
     "@storybook/storybook-deployer": "^2.8.6",
+    "@testing-library/dom": "^7.24.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react-hooks": "^3.4.1",
+    "@testing-library/user-event": "^12.1.5",
+    "@types/jest": "^26.0.14",
     "@types/react": "^16.9.44",
     "@types/react-dom": "^16.9.8",
     "@types/react-select": "^3.0.16",
@@ -55,5 +61,11 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@babel/preset-react": "^7.10.4",
+    "@testing-library/react": "^11.0.4",
+    "@types/testing-library__jest-dom": "^5.9.2",
+    "babel-jest": "^26.3.0",
+    "jest-environment-jsdom": "^26.3.0"
+  }
 }

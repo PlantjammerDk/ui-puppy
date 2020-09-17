@@ -20,6 +20,6 @@
     "allowSyntheticDefaultImports": true,
     "baseUrl": "."
   },
-  "include": ["src"],
+  "include": ["src", "**/*.tsx"],
   "exclude": ["node_modules", "build"]
 }
