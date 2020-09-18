@@ -2,6 +2,7 @@ import React from "react";
 import "@testing-library/jest-dom/extend-expect";
 import { render, cleanup, screen } from "@testing-library/react";
 import { Avatar, AvatarProps, EShapes, ESizes } from "src/index";
+import { EShape, ESize } from "enums/style.enums";
 
 const avatarProps: AvatarProps = {
   title: "Recipe creator",
@@ -10,8 +11,8 @@ const avatarProps: AvatarProps = {
   showName: true,
   showTitle: true,
   name: "TestUser Name",
-  size: "tiny",
-  shape: "rectangle",
+  size: ESize.Tiny,
+  shape: EShape.Rectangle,
 };
 
 describe("Avatar", () => {
@@ -29,7 +30,7 @@ describe("Avatar", () => {
       backgroundImage: `url(${avatarProps.picture})`,
     });
     expect(getByTestId("img-container")).toHaveClass(
-      `${ESizes[avatarProps.size]} ${EShapes[avatarProps.shape]}`
+      `${ESizes[avatarProps?.size]} ${EShapes[avatarProps.shape]}`
     );
     avatarProps.picture = "";
   });

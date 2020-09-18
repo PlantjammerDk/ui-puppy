@@ -1,3 +1,4 @@
+import { EFieldSize, EStatus } from "enums/style.enums";
 import React from "react";
 import { DetailedHTMLProps, InputHTMLAttributes } from "react";
 
@@ -5,10 +6,10 @@ export type LocalInputProps = DetailedHTMLProps<
   InputHTMLAttributes<HTMLInputElement>,
   HTMLInputElement
 > & {
-  fieldSize?: "small" | "medium" | "large";
+  fieldSize?: EFieldSize;
   label?: string;
   caption?: string;
-  status?: "basic" | "primary" | "success" | "info" | "warning" | "danger";
+  status?: EStatus;
 };
 
 const sizes = {

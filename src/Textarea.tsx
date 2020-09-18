@@ -1,3 +1,4 @@
+import { EStatus } from "enums/style.enums";
 import React from "react";
 
 export type TextareaProps = React.DetailedHTMLProps<
@@ -6,7 +7,7 @@ export type TextareaProps = React.DetailedHTMLProps<
 > & {
   caption?: string;
   label?: string;
-  status?: "basic" | "primary" | "success" | "info" | "warning" | "danger";
+  status?: EStatus;
   children?: string;
 };
 

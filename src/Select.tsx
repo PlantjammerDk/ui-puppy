@@ -1,3 +1,4 @@
+import { ESize, EStatus } from "enums/style.enums";
 import React from "react";
 import ReactSelect, {
   Props as SelectProps,
@@ -21,15 +22,8 @@ const colors = {
 
 type Props = SelectProps & {
   removeBorder?: boolean;
-  status?:
-    | "basic"
-    | "primary"
-    | "success"
-    | "info"
-    | "warning"
-    | "danger"
-    | "control";
-  size?: "small" | "medium" | "large";
+  status?: EStatus;
+  size?: ESize;
   label?: string;
   caption?: string;
 };
