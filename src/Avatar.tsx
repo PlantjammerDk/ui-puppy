@@ -1,6 +1,6 @@
 import React from "react";
 
-enum ESizes {
+export enum ESizes {
   tiny = "w-8 h-8",
   small = "w-10 h-10",
   medium = "w-12 h-12",
@@ -8,7 +8,7 @@ enum ESizes {
   giant = "w-20 h-20",
 }
 
-enum ENameTextSizes {
+export enum ENameTextSizes {
   tiny = "text-xs font-bold",
   small = "text-sm",
   medium = "text-base",
@@ -16,7 +16,7 @@ enum ENameTextSizes {
   giant = "text-xl",
 }
 
-enum ETitleTextSizes {
+export enum ETitleTextSizes {
   tiny = "text-xs",
   small = "text-xs",
   medium = "text-xs",
@@ -24,7 +24,7 @@ enum ETitleTextSizes {
   giant = "text-sm",
 }
 
-enum EShapes {
+export enum EShapes {
   rectangle = "rounded-none",
   "semi-round" = "rounded-md",
   round = "rounded-full",
@@ -64,6 +64,7 @@ export const Avatar = (props: AvatarProps) => {
       {/* PICTURE START */}
       {picture ? (
         <div
+          data-testid="img-container"
           style={{ backgroundImage: `url(${picture})` }}
           className={`${chosenSize} ${chosenSize} ${chosenShape} bg-cover bg-no-repeat`}
         />
