@@ -20,7 +20,7 @@ const colors = {
   "select-option-background": "#FFFFFF",
 };
 
-type Props = SelectProps & {
+export type LocalSelectProps = SelectProps & {
   removeBorder?: boolean;
   status?: EStatus;
   size?: ESize;
@@ -28,7 +28,7 @@ type Props = SelectProps & {
   caption?: string;
 };
 
-export const Select = (props: Props) => {
+export const Select = (props: LocalSelectProps) => {
   const {
     removeBorder = false,
     status = "basic",
