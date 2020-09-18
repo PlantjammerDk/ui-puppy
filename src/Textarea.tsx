@@ -42,7 +42,10 @@ export const Textarea = (props: TextareaProps) => {
       captionColor = "text-gray-600";
   }
   return (
-    <div className={`flex flex-col ${props.className}`}>
+    <div
+      data-testid="wrapping-div"
+      className={`flex flex-col ${props.className}`}
+    >
       {label && (
         <label htmlFor={label} className="text-sm font-semibold text-gray-600">
           {label}
