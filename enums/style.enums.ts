@@ -6,7 +6,7 @@ export enum ESize { //"tiny" | "small" | "medium" | "large" | "giant"
   Giant = "giant",
 }
 
-export enum EStatus { // "basic" | "primary" | "success" | "info" | "warning" | "danger"
+export enum EStatus { // "basic" | "primary" | "success" | "info" | "warning" | "danger" | "control"
   Basic = "basic",
   Primary = "primary",
   Success = "success",
