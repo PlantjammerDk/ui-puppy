@@ -1,4 +1,3 @@
-import React from "react";
 import "@testing-library/jest-dom/extend-expect";
 import { render, cleanup, screen } from "@testing-library/react";
 import { Avatar, AvatarProps, EShapes, ESizes } from "src/index";
@@ -30,7 +29,9 @@ describe("Avatar", () => {
       backgroundImage: `url(${avatarProps.picture})`,
     });
     expect(getByTestId("img-container")).toHaveClass(
-      `${ESizes[avatarProps?.size]} ${EShapes[avatarProps.shape]}`
+      `${ESizes[avatarProps?.size || ESize.Medium]} ${
+        EShapes[avatarProps.shape || EShape.Round]
+      }`
     );
     avatarProps.picture = "";
   });

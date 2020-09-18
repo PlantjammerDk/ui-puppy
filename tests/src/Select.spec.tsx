@@ -1,14 +1,6 @@
-import React from "react";
 import "@testing-library/jest-dom/extend-expect";
-import {
-  render,
-  cleanup,
-  screen,
-  getByRole,
-  getByPlaceholderText,, getByDisplayValue
-} from "@testing-library/react";
+import { render, cleanup, screen } from "@testing-library/react";
 import { Select, LocalSelectProps } from "src/index";
-import { EShape, ESize } from "enums/style.enums";
 import userEvent from "@testing-library/user-event";
 import { act } from "react-dom/test-utils";
 
@@ -51,7 +43,7 @@ describe("Select", () => {
     await act(async () => {
       await userEvent.click(getByRole("textbox"));
       await userEvent.click(getByText("1"));
-    })
-    expect(getByText('1')).toBeInTheDocument();
+    });
+    expect(getByText("1")).toBeInTheDocument();
   });
 });
