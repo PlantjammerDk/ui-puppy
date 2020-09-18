@@ -2,6 +2,7 @@ import React from "react";
 import "@testing-library/jest-dom/extend-expect";
 import { render, cleanup, screen } from "@testing-library/react";
 import { Input, LocalInputProps } from "src/index";
+import userEvent from "@testing-library/user-event";
 
 const inputProps: LocalInputProps = {
   fieldSize: "small",
@@ -17,7 +18,7 @@ describe("Input", () => {
   afterEach(() => {
     cleanup();
   });
-  const { getByRole, getByText, getByTestId } = screen;
+  const { getByRole, getByText, getByTestId, getByDisplayValue } = screen;
 
   test("renders email input and password input", async () => {
     const inputElement = getByRole("textbox");
@@ -32,6 +33,12 @@ describe("Input", () => {
   test("renders label and caption", async () => {
     expect(getByText(inputProps.label)).toBeInTheDocument();
     expect(getByText(inputProps.caption)).toBeInTheDocument();
+  });
+
+  test("updates input value", async () => {
+    const input = getByRole("textbox");
+    userEvent.type(input, "testing input");
+    expect(getByDisplayValue("testing input")).toBeInTheDocument();
   });
 
   test("has right default borderColor and captionColor", async () => {
