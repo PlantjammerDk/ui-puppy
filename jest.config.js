@@ -17,7 +17,7 @@ module.exports = {
       statements: 80,
     },
   },
-  coverageReporters: ["json", "text", "text-summary"],
+  coverageReporters: ["text", "text-summary"],
   moduleNameMapper: {
     "^src(.*)$": "<rootDir>/src$1",
   },
