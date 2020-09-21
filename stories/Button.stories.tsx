@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Props as ButtonProps } from "../src/Button";
+import { Button, ButtonProps } from "../src/Button";
 
 import { Meta } from "@storybook/react/types-6-0";
 

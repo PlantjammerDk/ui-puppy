@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom/extend-expect";
 import { render, cleanup, screen } from "@testing-library/react";
-import { Select, LocalSelectProps } from "src/index";
+import { Select, LocalSelectProps } from "../src/index";
 import userEvent from "@testing-library/user-event";
 import { act } from "react-dom/test-utils";
 

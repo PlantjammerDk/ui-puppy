@@ -1,4 +1,4 @@
-import { ESize, EStatus } from "enums/style.enums";
+import { TSize, TStatus } from "src/types/style.types";
 import React from "react";
 import ReactSelect, {
   Props as SelectProps,
@@ -22,8 +22,8 @@ const colors = {
 
 export type LocalSelectProps = SelectProps & {
   removeBorder?: boolean;
-  status?: EStatus;
-  size?: ESize;
+  status?: TStatus;
+  size?: TSize;
   label?: string;
   caption?: string;
 };

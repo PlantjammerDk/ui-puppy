@@ -1,13 +1,12 @@
 import "@testing-library/jest-dom/extend-expect";
 import { render, cleanup, screen } from "@testing-library/react";
-import { Textarea, TextareaProps } from "src/index";
+import { Textarea, TextareaProps } from "../src/index";
 import userEvent from "@testing-library/user-event";
-import { EStatus } from "enums/style.enums";
 
 const textAreaProps: TextareaProps = {
   caption: "test textarea caption",
   label: "test textarea label",
-  status: EStatus.Danger,
+  status: "danger",
   className: "my-test-class",
 };
 

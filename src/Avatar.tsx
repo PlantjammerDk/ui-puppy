@@ -1,4 +1,4 @@
-import { EShape, ESize } from "enums/style.enums";
+import { TShape, TSize } from "src/types/style.types";
 import React from "react";
 
 export enum ESizes {
@@ -32,8 +32,8 @@ export enum EShapes {
 }
 
 export type AvatarProps = {
-  size?: ESize;
-  shape?: EShape;
+  size?: TSize;
+  shape?: TShape;
   title?: string;
   picture?: string;
   showInitials?: boolean;

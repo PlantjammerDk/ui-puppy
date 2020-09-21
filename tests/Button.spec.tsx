@@ -1,14 +1,13 @@
 import React from "react";
 import "@testing-library/jest-dom/extend-expect";
 import { render, cleanup, screen } from "@testing-library/react";
-import { Button, ButtonProps } from "src/index";
-import { EAppearance, ESize, EStatus } from "enums/style.enums";
+import { Button, ButtonProps } from "../src/index";
 import userEvent from "@testing-library/user-event";
 
 const buttonProps: ButtonProps = {
-  appearance: EAppearance.Ghost,
-  status: EStatus.Basic,
-  size: ESize.Large,
+  appearance: "ghost",
+  status: "basic",
+  size: "large",
 };
 
 const callback = jest.fn();

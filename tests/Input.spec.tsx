@@ -1,11 +1,10 @@
 import "@testing-library/jest-dom/extend-expect";
 import { render, cleanup, screen } from "@testing-library/react";
-import { Input, LocalInputProps } from "src/index";
+import { Input, LocalInputProps } from "../src/index";
 import userEvent from "@testing-library/user-event";
-import { EFieldSize } from "enums/style.enums";
 
 const inputProps: LocalInputProps = {
-  fieldSize: EFieldSize.Small,
+  fieldSize: "small",
   label: "testInput",
   caption: "testCaption",
   className: "my-test-class",

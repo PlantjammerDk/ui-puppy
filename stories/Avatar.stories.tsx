@@ -1,6 +1,5 @@
 import React from "react";
 import { Avatar, AvatarProps } from "../src/Avatar";
-
 import { Meta } from "@storybook/react/types-6-0";
 
 export default {

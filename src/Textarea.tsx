@@ -1,4 +1,4 @@
-import { EStatus } from "enums/style.enums";
+import { TStatus } from "src/types/style.types";
 import React from "react";
 
 export type TextareaProps = React.DetailedHTMLProps<
@@ -7,7 +7,7 @@ export type TextareaProps = React.DetailedHTMLProps<
 > & {
   caption?: string;
   label?: string;
-  status?: EStatus;
+  status?: TStatus;
   children?: string;
 };
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { DetailedHTMLProps, ButtonHTMLAttributes } from "react";
-import { EAppearance, ESize, EStatus } from "enums/style.enums";
+import { TAppearance, TSize, TStatus } from "src/types/style.types";
 
 export type ButtonProps = DetailedHTMLProps<
   ButtonHTMLAttributes<HTMLButtonElement>,
@@ -9,9 +9,9 @@ export type ButtonProps = DetailedHTMLProps<
   children?: React.ReactNode;
   accessoryLeft?: React.ReactElement;
   accessoryRight?: React.ReactElement;
-  appearance?: EAppearance;
-  status?: EStatus;
-  size?: ESize;
+  appearance?: TAppearance;
+  status?: TStatus;
+  size?: TSize;
 };
 
 const statusFilled = {
