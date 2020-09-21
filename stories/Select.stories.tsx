@@ -1,5 +1,5 @@
 import React from "react";
-import { Select, Input, SelectComponents } from "../src";
+import { Select, SelectComponents } from "../src";
 
 export default {
   title: "Select",

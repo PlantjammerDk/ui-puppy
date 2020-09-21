@@ -1,3 +1,4 @@
+import { TSize, TStatus } from "src/types/style.types";
 import React from "react";
 import ReactSelect, {
   Props as SelectProps,
@@ -19,22 +20,15 @@ const colors = {
   "select-option-background": "#FFFFFF",
 };
 
-type Props = SelectProps & {
+export type LocalSelectProps = SelectProps & {
   removeBorder?: boolean;
-  status?:
-    | "basic"
-    | "primary"
-    | "success"
-    | "info"
-    | "warning"
-    | "danger"
-    | "control";
-  size?: "small" | "medium" | "large";
+  status?: TStatus;
+  size?: TSize;
   label?: string;
   caption?: string;
 };
 
-export const Select = (props: Props) => {
+export const Select = (props: LocalSelectProps) => {
   const {
     removeBorder = false,
     status = "basic",
