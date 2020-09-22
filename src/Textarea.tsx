@@ -1,4 +1,4 @@
-import { TStatus } from "src/types/style.types";
+import { TStatus } from "./types/style.types";
 import React from "react";
 
 export type TextareaProps = React.DetailedHTMLProps<
