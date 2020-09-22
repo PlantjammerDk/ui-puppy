@@ -1,3 +1,4 @@
+import { TStatus } from "src/types/style.types";
 import React from "react";
 
 export type TextareaProps = React.DetailedHTMLProps<
@@ -6,7 +7,7 @@ export type TextareaProps = React.DetailedHTMLProps<
 > & {
   caption?: string;
   label?: string;
-  status?: "basic" | "primary" | "success" | "info" | "warning" | "danger";
+  status?: TStatus;
   children?: string;
 };
 
@@ -41,7 +42,10 @@ export const Textarea = (props: TextareaProps) => {
       captionColor = "text-gray-600";
   }
   return (
-    <div className={`flex flex-col ${props.className}`}>
+    <div
+      data-testid="wrapping-div"
+      className={`flex flex-col ${props.className}`}
+    >
       {label && (
         <label htmlFor={label} className="text-sm font-semibold text-gray-600">
           {label}

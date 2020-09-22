@@ -1,3 +1,15 @@
+# v0.4.3 (Mon Sep 21 2020)
+
+#### 🐛 Bug Fix
+
+- Setup tests infrastructure [#12](https://github.com/PlantjammerDk/ui-puppy/pull/12) ([@alex1604](https://github.com/alex1604))
+
+#### Authors: 1
+
+- Alejandro Garcia ([@alex1604](https://github.com/alex1604))
+
+---
+
 # v0.4.2 (Wed Sep 09 2020)
 
 #### ⚠️ Pushed to `master`

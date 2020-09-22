@@ -1,3 +1,4 @@
+import { TFieldSize, TStatus } from "src/types/style.types";
 import React from "react";
 import { DetailedHTMLProps, InputHTMLAttributes } from "react";
 
@@ -5,10 +6,10 @@ export type LocalInputProps = DetailedHTMLProps<
   InputHTMLAttributes<HTMLInputElement>,
   HTMLInputElement
 > & {
-  fieldSize?: "small" | "medium" | "large";
+  fieldSize?: TFieldSize;
   label?: string;
   caption?: string;
-  status?: "basic" | "primary" | "success" | "info" | "warning" | "danger";
+  status?: TStatus;
 };
 
 const sizes = {
@@ -50,7 +51,10 @@ export const Input = (props: LocalInputProps) => {
   }
 
   return (
-    <div className={`flex flex-col ${props.className}`}>
+    <div
+      data-testid="wrapping-div"
+      className={`flex flex-col ${props.className}`}
+    >
       {label && (
         <label htmlFor={label} className="text-sm font-semibold text-gray-600">
           {label}
