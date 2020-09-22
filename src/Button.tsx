@@ -1,6 +1,6 @@
 import React from "react";
 import { DetailedHTMLProps, ButtonHTMLAttributes } from "react";
-import { TAppearance, TSize, TStatus } from "src/types/style.types";
+import { TAppearance, TSize, TStatus } from "./types/style.types";
 
 export type ButtonProps = DetailedHTMLProps<
   ButtonHTMLAttributes<HTMLButtonElement>,

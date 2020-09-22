@@ -1,4 +1,4 @@
-import { TShape, TSize } from "src/types/style.types";
+import { TShape, TSize } from "./types/style.types";
 import React from "react";
 
 export enum ESizes {
