@@ -11,7 +11,10 @@ export type LocalCheckboxProps = DetailedHTMLProps<
 export const Checkbox = (props: LocalCheckboxProps) => {
   const { label } = props;
   return (
-    <label {...props.className} className="container text-xs font-semibold">
+    <label
+      {...props.className}
+      className="text-xs font-semibold checkbox-container"
+    >
       {label}
       <input {...props} type="checkbox" />
       <span className="checkmark"></span>
