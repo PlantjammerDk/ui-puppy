@@ -1,3 +1,15 @@
+# v0.4.5 (Thu Oct 01 2020)
+
+#### 🐛 Bug Fix
+
+- Checkbox [#13](https://github.com/PlantjammerDk/ui-puppy/pull/13) ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.4.4 (Thu Oct 01 2020)
 
 #### 🐛 Bug Fix
