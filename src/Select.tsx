@@ -89,13 +89,15 @@ export const Select = (props: LocalSelectProps) => {
   };
 
   const customStyles: Styles = {
-    control: (provided) => ({
+    control: (provided, state) => ({
       display: "flex",
       borderRadius: "4px",
       ":hover": {
         ...provided[":hover"],
         backgroundColor: colors["select-background-hover"],
       },
+      border: state.isFocused ? `1px solid rgb(38, 132, 255)` : "",
+      boxShadow: state.isFocused ? "rgb(38, 132, 255) 0px 0px 0px 1px" : "",
     }),
     valueContainer: (provided) => ({
       ...provided,
@@ -146,7 +148,9 @@ export const Select = (props: LocalSelectProps) => {
       <ReactSelect
         {...props}
         className={`rounded ${
-          removeBorder ? "border-none bg-transparent" : `border ${getBorderColor()}`
+          removeBorder
+            ? "border-none bg-transparent"
+            : `border ${getBorderColor()}`
         } hover:bg-gray-200`}
         styles={customStyles}
       />
