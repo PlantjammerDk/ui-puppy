@@ -145,8 +145,8 @@ export const Select = (props: LocalSelectProps) => {
       </div>
       <ReactSelect
         {...props}
-        className={`rounded ${getBorderColor()} ${
-          removeBorder ? "border-none bg-transparent" : "border bg-gray-100"
+        className={`rounded ${
+          removeBorder ? "border-none bg-transparent" : `border ${getBorderColor()}`
         } hover:bg-gray-200`}
         styles={customStyles}
       />
