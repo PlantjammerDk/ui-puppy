@@ -1,4 +1,4 @@
-import { TFieldSize, TStatus } from "src/types/style.types";
+import { TFieldSize, TStatus } from "./types/style.types";
 import React from "react";
 import { DetailedHTMLProps, InputHTMLAttributes } from "react";
 

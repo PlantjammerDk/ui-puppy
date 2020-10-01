@@ -1,4 +1,4 @@
-import { TSize, TStatus } from "src/types/style.types";
+import { TSize, TStatus } from "./types/style.types";
 import React from "react";
 import ReactSelect, {
   Props as SelectProps,
