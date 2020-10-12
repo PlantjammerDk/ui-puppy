@@ -1,3 +1,18 @@
+# v0.4.6 (Mon Oct 12 2020)
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'tag' ([@andersravn](https://github.com/andersravn))
+- Added Tag ([@andersravn](https://github.com/andersravn))
+- Select should have blue border when focused ([@andersravn](https://github.com/andersravn))
+- Merge branch 'master' into tag ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.4.5 (Thu Oct 01 2020)
 
 #### 🐛 Bug Fix
