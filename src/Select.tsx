@@ -138,7 +138,7 @@ export const Select = (props: LocalSelectProps) => {
       marginRight: "10px",
       marginLeft: "auto",
     }),
-      multiValue: (provided, state) => {
+      multiValue: (provided) => {
         const backgroundColor = 'white';
         const border = '1px solid #3E8A7A';
         const borderRadius = '15px';
