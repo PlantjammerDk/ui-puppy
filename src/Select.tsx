@@ -138,7 +138,25 @@ export const Select = (props: LocalSelectProps) => {
       marginRight: "10px",
       marginLeft: "auto",
     }),
-  };
+      multiValue: (provided) => {
+        const backgroundColor = 'white';
+        const border = '1px solid #3E8A7A';
+        const borderRadius = '15px';
+        const alignItems = 'center';
+        const paddingLeft = '0.5em';
+        return { ...provided, backgroundColor, border, borderRadius, alignItems, paddingLeft }
+      },
+      multiValueRemove: () => {
+        const cursor = 'pointer';
+        const marginRight = 4;
+        const color = '#3E8A7A';
+        const height = 30;
+        const width = 20;
+        return { cursor, marginRight, color, 'svg': {
+          height, width
+        }, }
+      }
+    }
 
   return (
     <>
@@ -152,7 +170,7 @@ export const Select = (props: LocalSelectProps) => {
             ? "border-none bg-transparent"
             : `border ${getBorderColor()}`
         } hover:bg-gray-200`}
-        styles={customStyles}
+        styles={{...customStyles, ...props.styles}}
       />
       <div className={`text-sm ${getCaptionColor()}`}>{caption}</div>
     </>

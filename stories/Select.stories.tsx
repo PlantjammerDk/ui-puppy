@@ -1,4 +1,6 @@
 import React from "react";
+import { MultiValueContainer } from "react-select/src/components/MultiValue";
+import { borderRadius } from "react-select/src/theme";
 import { Select, SelectComponents } from "../src";
 
 export default {
@@ -84,3 +86,11 @@ export const CustomOption = () => (
     />
   </>
 );
+
+export const MultiOption = () => (
+  <>
+    <Select options={optionsData} size="medium" isMulti/>
+  </>
+);
+
+
