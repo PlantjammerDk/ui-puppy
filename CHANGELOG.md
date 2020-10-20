@@ -1,3 +1,15 @@
+# v0.4.7 (Tue Oct 20 2020)
+
+#### 🐛 Bug Fix
+
+- Add extended custom styles to select component [#15](https://github.com/PlantjammerDk/ui-puppy/pull/15) ([@alex1604](https://github.com/alex1604))
+
+#### Authors: 1
+
+- Alejandro Garcia ([@alex1604](https://github.com/alex1604))
+
+---
+
 # v0.4.6 (Mon Oct 12 2020)
 
 #### ⚠️ Pushed to `master`
