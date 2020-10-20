@@ -1,4 +1,6 @@
 import React from "react";
+import { MultiValueContainer } from "react-select/src/components/MultiValue";
+import { borderRadius } from "react-select/src/theme";
 import { Select, SelectComponents } from "../src";
 
 export default {
@@ -84,3 +86,38 @@ export const CustomOption = () => (
     />
   </>
 );
+
+export const MultiOption = () => (
+  <>
+    <Select options={optionsData} size="medium" isMulti/>
+  </>
+);
+
+const multiStyles = {
+  multiValue: (provided, state) => {
+    const backgroundColor = 'white';
+    const border = '1px solid #3E8A7A';
+    const borderRadius = '15px';
+    const alignItems = 'center';
+    const paddingLeft = '0.5em';
+    return { ...provided, backgroundColor, border, borderRadius, alignItems, paddingLeft }
+  },
+  multiValueRemove: () => {
+    const cursor = 'pointer';
+    const marginRight = 4;
+    const color = '#3E8A7A';
+    const height = 30;
+    const width = 20;
+    return { cursor, marginRight, color, 'svg': {
+      height, width
+    }, }
+  }
+}
+
+export const MultiOptionCustom = () => (
+  <>
+    <Select options={optionsData} size="medium" isMulti styles={multiStyles}/>
+  </>
+);
+
+

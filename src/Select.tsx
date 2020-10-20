@@ -152,7 +152,7 @@ export const Select = (props: LocalSelectProps) => {
             ? "border-none bg-transparent"
             : `border ${getBorderColor()}`
         } hover:bg-gray-200`}
-        styles={customStyles}
+        styles={{...customStyles, ...props.styles}}
       />
       <div className={`text-sm ${getCaptionColor()}`}>{caption}</div>
     </>
