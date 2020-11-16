@@ -1,3 +1,15 @@
+# v0.4.8 (Fri Oct 30 2020)
+
+#### ⚠️ Pushed to `master`
+
+- Add bg-color to Select ([@andersravn](https://github.com/andersravn))
+
+#### Authors: 1
+
+- Anders Ravn ([@andersravn](https://github.com/andersravn))
+
+---
+
 # v0.4.7 (Tue Oct 20 2020)
 
 #### 🐛 Bug Fix
