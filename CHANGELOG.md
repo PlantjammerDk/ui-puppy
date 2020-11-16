@@ -1,3 +1,16 @@
+# v0.4.9 (Mon Nov 16 2020)
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'master' of github.com:PlantjammerDk/ui-puppy into master ([@alex1604](https://github.com/alex1604))
+- add className from props to Textarea ([@alex1604](https://github.com/alex1604))
+
+#### Authors: 1
+
+- Alejandro Garcia ([@alex1604](https://github.com/alex1604))
+
+---
+
 # v0.4.8 (Fri Oct 30 2020)
 
 #### ⚠️ Pushed to `master`
